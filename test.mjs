@@ -28,6 +28,13 @@ test('homepage presents the verified founders and their roles', async () => {
   assert.match(page, /https:\/\/www\.linkedin\.com\/in\/hemshikha0022\//);
 });
 
+test('homepage presents Hemshikha’s supplied profile portrait accessibly', async () => {
+  const page = await html();
+  assert.match(page, /<img[^>]+src="assets\/hemshikha-kadian\.png"[^>]+alt="Portrait of Hemshikha Kadian"/);
+  assert.match(page, /class="founder-photo"/);
+  assert.match(page, /loading="lazy"/);
+});
+
 test('homepage includes accessible navigation and commerce controls', async () => {
   const page = await html();
   assert.match(page, /aria-label="Main navigation"/);
