@@ -6,9 +6,15 @@ const html = () => readFile(new URL('./index.html', import.meta.url), 'utf8');
 const css = () => readFile(new URL('./styles.css', import.meta.url), 'utf8');
 const js = () => readFile(new URL('./script.js', import.meta.url), 'utf8');
 
-test('homepage exposes the complete House of Hemanka editorial structure', async () => {
+test('homepage uses Hemanka as the sole brand name', async () => {
   const page = await html();
-  for (const marker of ['HOUSE OF HEMANKA', 'The Solstice Edit', 'New Arrivals', 'The Art of Making', 'Join the House']) {
+  assert.doesNotMatch(page, /house of hemanka/i);
+  assert.match(page, /<title>HEMANKA — Modern Heirlooms<\/title>/);
+});
+
+test('homepage exposes the complete Hemanka editorial structure', async () => {
+  const page = await html();
+  for (const marker of ['HEMANKA', 'The Solstice Edit', 'New Arrivals', 'The Art of Making', 'Join the House']) {
     assert.match(page, new RegExp(marker, 'i'));
   }
 });

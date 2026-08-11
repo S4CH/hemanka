@@ -1,6 +1,6 @@
-# HOUSE OF HEMANKA
+# HEMANKA
 
-A responsive editorial fashion storefront for HOUSE OF HEMANKA, presenting modern Indian heirlooms through a luxury campaign experience.
+A responsive editorial fashion storefront for HEMANKA, presenting modern Indian heirlooms through a luxury campaign experience.
 
 ## Features
 
@@ -30,4 +30,4 @@ node --check script.js
 
 ## Photography
 
-The current photography is licensed placeholder material. See [CREDITS.md](CREDITS.md) for attribution and licensing details. Production use should replace it with commissioned HOUSE OF HEMANKA campaign photography.
+The current photography is licensed placeholder material. See [CREDITS.md](CREDITS.md) for attribution and licensing details. Production use should replace it with commissioned HEMANKA campaign photography.

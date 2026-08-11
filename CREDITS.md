@@ -5,4 +5,4 @@
 - `assets/look-3.jpg` — “Nandita Swetha” by Seny P Arukattu, licensed CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Nandita_Swetha.jpg
 - `assets/craft.jpg` — “Embroidery on a saree 01” by Kritzolina, licensed CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Embroidery_on_a_saree_01.jpg
 
-The images are used as placeholders for this website prototype. Replace them with commissioned HOUSE OF HEMANKA campaign photography before production launch.
+The images are used as placeholders for this website prototype. Replace them with commissioned HEMANKA campaign photography before production launch.
