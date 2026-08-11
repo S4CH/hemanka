@@ -1,0 +1,8 @@
+.DS_Store
+.claude/
+.omc/
+mobile-qa*.png
+mobile-footer-qa*.png
+mobile-footer-bottom-qa*.png
+node_modules/
+.wrangler/

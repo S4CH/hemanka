@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="House of Hemanka — modern Indian heirlooms, made slowly." />
+  <title>HOUSE OF HEMANKA — Modern Heirlooms</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="custom-cursor" aria-hidden="true"><span>VIEW</span></div>
+  <div class="announcement">COMPLIMENTARY SHIPPING ACROSS INDIA <span>—</span> PRIVATE APPOINTMENTS NOW OPEN</div>
+
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="House of Hemanka home"><span>HOUSE OF</span> HEMANKA</a>
+    <nav aria-label="Main navigation">
+      <a href="#arrivals">New Arrivals</a>
+      <a href="#collection">Collections</a>
+      <a href="#craft">The House</a>
+    </nav>
+    <div class="header-actions">
+      <button class="text-button search-button" aria-label="Search" aria-controls="search-panel" aria-expanded="false">Search</button>
+      <button class="text-button bag-button" aria-label="Shopping bag" aria-controls="bag-panel" aria-expanded="false">Bag <span class="bag-count" aria-live="polite">0</span></button>
+      <button class="menu-toggle" aria-label="Open menu" aria-controls="menu-panel" aria-expanded="false"><i></i><i></i></button>
+    </div>
+  </header>
+
+  <aside class="menu-panel" id="menu-panel" aria-hidden="true" inert>
+    <div class="menu-inner">
+      <p class="eyebrow">Explore the House</p>
+      <a href="#arrivals">01 — New Arrivals</a>
+      <a href="#collection">02 — Collections</a>
+      <a href="#craft">03 — Our Craft</a>
+      <a href="#journal">04 — Journal</a>
+      <div class="menu-meta"><span>New Delhi / India</span><span>Instagram</span></div>
+    </div>
+  </aside>
+
+  <aside class="search-panel utility-panel" id="search-panel" role="dialog" aria-modal="true" aria-labelledby="search-title" aria-hidden="true" inert>
+    <div class="utility-head"><p class="eyebrow">Search the House</p><button class="panel-close" type="button" aria-label="Close search">Close ×</button></div>
+    <label id="search-title" for="search-input">What are you looking for?</label>
+    <input class="search-input" id="search-input" type="search" placeholder="Search saris, silk, organza…" autocomplete="off">
+    <div class="search-results" aria-live="polite"></div>
+  </aside>
+
+  <aside class="bag-panel utility-panel" id="bag-panel" role="dialog" aria-modal="true" aria-labelledby="bag-title" aria-hidden="true" inert>
+    <div class="utility-head"><div><p class="eyebrow">Your selection</p><h2 id="bag-title">Shopping Bag</h2></div><button class="panel-close" type="button" aria-label="Close bag">Close ×</button></div>
+    <div class="bag-items" aria-live="polite"></div>
+    <div class="bag-actions"><button class="clear-bag" type="button">Clear bag</button><div class="bag-summary"><span>Subtotal</span><strong class="bag-total">₹0</strong></div></div>
+    <button class="checkout-button" type="button">Proceed to checkout <span>↗</span></button>
+  </aside>
+  <button class="panel-backdrop" type="button" aria-label="Close open panel" hidden></button>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero image-hover" id="collection">
+      <div class="hero-shade"></div>
+      <p class="hero-kicker">THE SOLSTICE EDIT · 2026</p>
+      <h1 aria-label="The Solstice Edit"><span>THE SOLSTICE</span><span>EDIT</span></h1>
+      <a class="outline-cta" href="#arrivals">Explore the collection <span>↗</span></a>
+      <div class="scroll-note">Scroll to discover <span>↓</span></div>
+    </section>
+
+    <section class="manifesto">
+      <p class="eyebrow">A study in light, form & inheritance</p>
+      <h2>Made for the woman<br> who carries <em>her own</em> story.</h2>
+      <div class="manifesto-meta">
+        <p>House of Hemanka brings ancient Indian handcraft into the present — in silhouettes that feel effortless, expressive and entirely your own.</p>
+        <a class="line-link" href="#craft">Discover our story <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="arrivals" id="arrivals">
+      <div class="section-head">
+        <div><p class="eyebrow">Curated for now</p><h2>New Arrivals</h2></div>
+        <a class="line-link" href="#arrivals">View all 24 pieces <span>↗</span></a>
+      </div>
+      <div class="product-grid product-track" aria-label="New arrivals">
+        <article class="product-card image-hover" data-name="The Rasa Sari" data-description="Handwoven silk Gulabi" data-price="38500" data-image="assets/look-1.jpg">
+          <div class="product-image"><img src="assets/look-1.jpg" alt="Woman modelling a green and violet brocade sari" width="848" height="1191" loading="lazy"><span class="product-index">01</span><button class="quick-add add-to-bag" data-product="The Rasa Sari">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Rasa Sari</h3><p>Handwoven silk · Gulabi</p></div><span>₹38,500</span></div>
+        </article>
+        <article class="product-card image-hover offset-card" data-name="The Nila Drape" data-description="Organza silver thread Mist" data-price="42000" data-image="assets/look-3.jpg">
+          <div class="product-image"><img src="assets/look-3.jpg" alt="Model in a soft ivory floral sari" width="1280" height="1920" loading="lazy"><span class="product-index">02</span><button class="quick-add add-to-bag" data-product="The Nila Drape">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Nila Drape</h3><p>Organza & silver thread · Mist</p></div><span>₹42,000</span></div>
+        </article>
+        <article class="product-card image-hover" data-name="The Amara Sari" data-description="Silk zari Jamun" data-price="34500" data-image="assets/hero.jpg">
+          <div class="product-image warm-image"><img src="assets/hero.jpg" alt="Purple sari in movement" width="4010" height="2432" loading="lazy"><span class="product-index">03</span><button class="quick-add add-to-bag" data-product="The Amara Sari">Quick add +</button></div>
+          <div class="product-info"><div><h3>The Amara Sari</h3><p>Silk & zari · Jamun</p></div><span>₹34,500</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="House values"><div>FORM / FEELING / FOREVER /&nbsp; FORM / FEELING / FOREVER /&nbsp;</div></section>
+
+    <section class="craft image-hover" id="craft">
+      <img src="assets/craft.jpg" alt="Detailed gold and coloured embroidery on ivory textile" width="5472" height="3648" loading="lazy">
+      <div class="craft-copy">
+        <p class="eyebrow">The Art of Making · 112 hours</p>
+        <h2>Every thread<br>remembers.</h2>
+        <p>From the first line drawn by hand to the final stitch, each piece passes through generations of knowledge. Not produced. Composed.</p>
+        <a class="outline-cta dark" href="#journal">Meet our artisans <span>↗</span></a>
+      </div>
+      <div class="craft-number">04 / 06</div>
+    </section>
+
+    <section class="journal" id="journal">
+      <div class="journal-title"><p class="eyebrow">Notes from the atelier</p><h2>The Journal</h2></div>
+      <article>
+        <span>01</span><h3>The poetry of an unfinished edge</h3><p>CRAFT · 6 MIN READ</p><b>↗</b>
+      </article>
+      <article>
+        <span>02</span><h3>From Jodhpur, with indigo</h3><p>PLACES · 4 MIN READ</p><b>↗</b>
+      </article>
+      <article>
+        <span>03</span><h3>Hemanka women: Aditi Rao</h3><p>PORTRAITS · 8 MIN READ</p><b>↗</b>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div><p class="eyebrow">Private letters, occasionally</p><h2>Join the House</h2></div>
+      <form class="newsletter-form">
+        <label for="email">Your email address</label>
+        <div><input id="email" type="email" placeholder="name@example.com" required><button type="submit">Subscribe ↗</button></div>
+        <p class="form-status" aria-live="polite"></p>
+      </form>
+    </div>
+    <div class="footer-links">
+      <div><p>Client Services</p><a href="#">Contact</a><a href="#">Shipping & Returns</a><a href="#">Care Guide</a><a href="#">Book an Appointment</a></div>
+      <div><p>The House</p><a href="#craft">Our Story</a><a href="#journal">Journal</a><a href="#">Stockists</a><a href="#">Careers</a></div>
+      <div><p>Follow</p><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">Vimeo</a></div>
+      <div class="footer-address"><p>Atelier</p><address>27, Mehrauli Road<br>New Delhi 110030<br>India</address></div>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">HEMANKA</div>
+    <div class="footer-legal"><span>© 2026 HOUSE OF HEMANKA</span><span>PRIVACY · TERMS · <a href="CREDITS.md">CREDITS</a></span><a href="#top">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
