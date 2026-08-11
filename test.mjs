@@ -13,6 +13,15 @@ test('homepage exposes the complete House of Hemanka editorial structure', async
   }
 });
 
+test('homepage presents the verified founders and their roles', async () => {
+  const page = await html();
+  assert.match(page, /id="founders"/);
+  assert.match(page, /Hemshikha Kadian/);
+  assert.match(page, /Ankita Singh/);
+  assert.match(page, /Lead Designers &amp; Illustrators/);
+  assert.match(page, /https:\/\/www\.linkedin\.com\/in\/hemshikha0022\//);
+});
+
 test('homepage includes accessible navigation and commerce controls', async () => {
   const page = await html();
   assert.match(page, /aria-label="Main navigation"/);

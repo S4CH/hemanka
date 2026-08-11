@@ -83,6 +83,17 @@ img { max-width: 100%; }
 .craft-copy > p:not(.eyebrow) { max-width: 340px; margin-bottom: 30px; font-size: 12px; line-height: 1.7; }
 .outline-cta.dark:hover { background: #171612; color: #f3eee5; }
 .craft-number { position: absolute; z-index: 2; right: 2vw; bottom: 25px; font-size: 9px; letter-spacing: .18em; }
+.founders { padding: 145px 5vw 155px; display: grid; grid-template-columns: minmax(280px,.8fr) minmax(520px,1.2fr); gap: 9vw; background: #24100e; color: #f2e9dc; }
+.founders-intro { align-self: start; position: sticky; top: 50px; }
+.founders-intro h2 { margin: 0 0 42px; font-family: 'Bodoni Moda', serif; font-size: clamp(50px,6.3vw,96px); font-weight: 400; line-height: .86; letter-spacing: -.06em; }
+.founders-intro > p:last-child { max-width: 410px; margin: 0; color: #c9bdb0; font-size: 13px; line-height: 1.75; }
+.founder-list { border-top: 1px solid rgba(242,233,220,.3); }
+.founder-card { min-height: 360px; padding: 30px 0; display: grid; grid-template-columns: 45px minmax(0,1fr) auto; gap: 20px; align-items: start; border-bottom: 1px solid rgba(242,233,220,.3); }
+.founder-number, .founder-role { font-size: 9px; letter-spacing: .17em; text-transform: uppercase; }
+.founder-role { margin: 2px 0 42px; color: #b9aa9b; }
+.founder-card h3 { margin: 0; font-family: 'Bodoni Moda', serif; font-size: clamp(54px,6vw,92px); font-weight: 400; line-height: .78; letter-spacing: -.055em; }
+.founder-profile { min-width: 120px; min-height: 44px; padding-bottom: 8px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid; font-size: 9px; letter-spacing: .16em; text-transform: uppercase; }
+.founder-mark { align-self: end; font-family: 'Bodoni Moda', serif; font-size: 68px; line-height: .8; color: #8d201c; }
 .journal { padding: 140px 5vw; background: #f2eee6; }
 .journal-title { margin-bottom: 70px; display: flex; justify-content: space-between; align-items: end; }
 .journal article { padding: 28px 0; display: grid; grid-template-columns: 80px 1fr 220px 30px; align-items: center; border-top: 1px solid #aaa296; transition: padding .3s, color .3s; }
@@ -160,6 +171,7 @@ body[data-overlay="bag-panel"] .search-panel { opacity: 0 !important; visibility
   .manifesto-meta { width: 55%; }
   .product-grid { grid-template-columns: repeat(2,1fr); }
   .product-card:last-child { grid-column: 2; }
+  .founders { gap: 5vw; }
   .journal article { grid-template-columns: 55px 1fr 150px 25px; }
   .footer-top { gap: 5vw; }
 }
@@ -201,6 +213,10 @@ body[data-overlay="bag-panel"] .search-panel { opacity: 0 !important; visibility
   .craft::after { background: linear-gradient(90deg,rgba(238,229,213,.95),rgba(238,229,213,.32)); }
   .craft-copy { left: 20px; width: 82vw; }
   .craft-copy h2 { font-size: 64px; }
+  .founders { padding: 100px 20px; grid-template-columns: 1fr; gap: 70px; }
+  .founders-intro { position: static; }
+  .founders-intro > p:last-child { max-width: 560px; font-size: 14px; }
+  .founder-card { min-height: 320px; }
   .journal { padding: 100px 20px; }
   .journal article { grid-template-columns: 35px 1fr 20px; }
   .journal article p { display: none; }
@@ -227,6 +243,12 @@ body[data-overlay="bag-panel"] .search-panel { opacity: 0 !important; visibility
   .product-card { min-width: 84vw; }
   .craft { min-height: 620px; }
   .craft-copy h2 { font-size: clamp(54px,17vw,70px); }
+  .founders { padding: 84px 20px; gap: 54px; }
+  .founders-intro h2 { margin-bottom: 30px; font-size: clamp(48px,14vw,68px); }
+  .founder-card { min-height: 290px; grid-template-columns: 28px minmax(0,1fr); gap: 12px; }
+  .founder-card h3 { font-size: clamp(50px,15vw,72px); }
+  .founder-role { margin-bottom: 32px; line-height: 1.5; }
+  .founder-profile, .founder-mark { grid-column: 2; justify-self: start; align-self: end; }
   .journal-title { display: block; }
   .journal-title h2 { margin-top: 14px; }
   .journal article { grid-template-columns: 30px 1fr 24px; padding: 22px 0; }
